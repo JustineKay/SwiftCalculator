@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.currentTitle!
         if userIsInTheMiddleOfTypingANumber {
+            //TODO - Add decimal digit
             displayLabel.text = displayLabel.text! + digit
         } else {
             displayLabel.text! = digit
@@ -34,6 +35,10 @@ class ViewController: UIViewController {
         case "÷": performOperation { $1 / $0 }
         case "+": performOperation { $0 + $1 }
         case "−": performOperation { $1 - $0 }
+        //TODO - Add pi, cos and sin operations
+//        case "π": 
+//        case "cos":
+//        case "sin":
         case "√": performSingleArgumentOperation { sqrt($0) }
         default: break
         }
@@ -68,7 +73,7 @@ class ViewController: UIViewController {
             return NSNumberFormatter().numberFromString(displayLabel.text!)!.doubleValue
         }
         set{
-            //set display text
+            //set display text with newValue
             displayLabel.text = "\(newValue)"
             userIsInTheMiddleOfTypingANumber = false
         }
