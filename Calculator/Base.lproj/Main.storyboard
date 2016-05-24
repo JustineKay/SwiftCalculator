@@ -17,216 +17,242 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Tp-v4-5la">
-                                <rect key="frame" x="8" y="70" width="584" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Tp-v4-5la">
+                                <rect key="frame" x="8" y="95" width="584" height="39"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3L-8v-VcL">
-                                <rect key="frame" x="0.0" y="111" width="118" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3L-8v-VcL">
+                                <rect key="frame" x="0.0" y="136" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="7"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OID-sn-int"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11g-us-fVK">
-                                <rect key="frame" x="120" y="111" width="119" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11g-us-fVK">
+                                <rect key="frame" x="120" y="136" width="119" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="8"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l7y-Ff-vxj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qf-yE-K1C">
-                                <rect key="frame" x="241" y="111" width="118" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qf-yE-K1C">
+                                <rect key="frame" x="241" y="136" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="9"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5a5-Qg-v9L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lU3-zG-34t">
-                                <rect key="frame" x="0.0" y="200" width="118" height="88"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lU3-zG-34t">
+                                <rect key="frame" x="0.0" y="237" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="4"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ew-dN-39A"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZb-0X-oln">
-                                <rect key="frame" x="241" y="200" width="118" height="88"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZb-0X-oln">
+                                <rect key="frame" x="241" y="237" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="6"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="flR-As-Iy2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jh-e3-40w">
-                                <rect key="frame" x="0.0" y="290" width="118" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jh-e3-40w">
+                                <rect key="frame" x="0.0" y="338" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="1"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="17d-cv-npz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acU-UZ-rPq">
-                                <rect key="frame" x="120" y="290" width="119" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acU-UZ-rPq">
+                                <rect key="frame" x="120" y="338" width="119" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="2"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="emc-LN-lH3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rib-I9-YPv">
-                                <rect key="frame" x="241" y="290" width="118" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rib-I9-YPv">
+                                <rect key="frame" x="241" y="338" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="3"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uFZ-JD-dsq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPh-gA-8GU">
-                                <rect key="frame" x="0.0" y="379" width="118" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPh-gA-8GU">
+                                <rect key="frame" x="0.0" y="439" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="."/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PCC-fP-Khd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEe-wB-Jxq">
-                                <rect key="frame" x="120" y="379" width="119" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEe-wB-Jxq">
+                                <rect key="frame" x="120" y="439" width="119" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="0"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ifN-in-DXW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ZG-D0-Bax">
-                                <rect key="frame" x="241" y="379" width="118" height="87"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ZG-D0-Bax">
+                                <rect key="frame" x="241" y="439" width="118" height="99"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="⏎"/>
                                 <connections>
                                     <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="nNv-dI-zon"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbI-hU-liq">
-                                <rect key="frame" x="361" y="111" width="119" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbI-hU-liq">
+                                <rect key="frame" x="361" y="136" width="119" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="×"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsb-g6-A0R"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbf-3c-29H">
-                                <rect key="frame" x="361" y="200" width="119" height="88"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbf-3c-29H">
+                                <rect key="frame" x="361" y="237" width="119" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="÷"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fmG-Dw-arR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCG-y8-WiW">
-                                <rect key="frame" x="361" y="290" width="119" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCG-y8-WiW">
+                                <rect key="frame" x="361" y="338" width="119" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v6p-xB-sRT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ym-Yu-goG">
-                                <rect key="frame" x="361" y="379" width="119" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ym-Yu-goG">
+                                <rect key="frame" x="361" y="439" width="119" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="−"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X1I-wH-s8S"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qJ-B1-iIs">
-                                <rect key="frame" x="482" y="111" width="118" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qJ-B1-iIs">
+                                <rect key="frame" x="482" y="136" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="π"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSU-9M-9CK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvl-JC-PXW">
-                                <rect key="frame" x="482" y="200" width="118" height="88"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvl-JC-PXW">
+                                <rect key="frame" x="482" y="237" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="cos"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uKG-Tl-UTx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUE-1P-qPm">
-                                <rect key="frame" x="482" y="290" width="118" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUE-1P-qPm">
+                                <rect key="frame" x="482" y="338" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="sin"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6l3-18-TV2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffe-uy-CxA">
-                                <rect key="frame" x="482" y="379" width="118" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffe-uy-CxA">
+                                <rect key="frame" x="482" y="439" width="118" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="√"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xuf-TU-G7j"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fk-Eb-CA1">
-                                <rect key="frame" x="0.0" y="468" width="600" height="100"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="Pf6-HL-K4k"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qz-Hk-tco">
-                                <rect key="frame" x="120" y="200" width="119" height="88"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qz-Hk-tco">
+                                <rect key="frame" x="120" y="237" width="119" height="99"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="5"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajp-Lk-qxi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fG-ek-ued">
-                                <rect key="frame" x="301" y="570" width="299" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="fQa-it-pgE"/>
-                                </constraints>
-                                <state key="normal" title="AC"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEV-OV-GbB">
-                                <rect key="frame" x="0.0" y="570" width="299" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="540" width="299" height="60"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Lm1-HR-rcJ"/>
+                                    <constraint firstAttribute="height" constant="60" id="Lm1-HR-rcJ"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <state key="normal" title="C"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fG-ek-ued">
+                                <rect key="frame" x="301" y="540" width="299" height="60"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fQa-it-pgE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                <state key="normal" title="AC"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="fQa-it-pgE"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDN-ri-0To" userLabel="Operand Stack">
+                                <rect key="frame" x="8" y="20" width="584" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="E07-ia-n6w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="11g-us-fVK" firstAttribute="leading" secondItem="g3L-8v-VcL" secondAttribute="trailing" constant="2" id="00H-nF-emp"/>
-                            <constraint firstItem="SEV-OV-GbB" firstAttribute="top" secondItem="7Fk-Eb-CA1" secondAttribute="bottom" constant="2" id="05h-y3-tP7"/>
                             <constraint firstItem="lU3-zG-34t" firstAttribute="top" secondItem="g3L-8v-VcL" secondAttribute="bottom" constant="2" id="0vY-Yc-tQo"/>
                             <constraint firstItem="4qf-yE-K1C" firstAttribute="leading" secondItem="11g-us-fVK" secondAttribute="trailing" constant="2" id="12v-Q7-hgu"/>
                             <constraint firstItem="wbf-3c-29H" firstAttribute="leading" secondItem="iZb-0X-oln" secondAttribute="trailing" constant="2" id="3Gv-YG-NKm"/>
                             <constraint firstItem="gEe-wB-Jxq" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="3we-tE-uMj"/>
+                            <constraint firstItem="9Tp-v4-5la" firstAttribute="top" secondItem="QDN-ri-0To" secondAttribute="bottom" constant="25" id="4F1-nx-m11"/>
                             <constraint firstItem="lU3-zG-34t" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4aJ-FA-EUf"/>
                             <constraint firstItem="sPh-gA-8GU" firstAttribute="top" secondItem="0jh-e3-40w" secondAttribute="bottom" constant="2" id="51m-FX-Ux8"/>
                             <constraint firstItem="sPh-gA-8GU" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="542-0W-sJp"/>
                             <constraint firstItem="gEe-wB-Jxq" firstAttribute="leading" secondItem="sPh-gA-8GU" secondAttribute="trailing" constant="2" id="5TL-VI-CXA"/>
-                            <constraint firstItem="7Fk-Eb-CA1" firstAttribute="top" secondItem="sPh-gA-8GU" secondAttribute="bottom" constant="2" id="7eu-3M-2pp"/>
+                            <constraint firstItem="2fG-ek-ued" firstAttribute="top" secondItem="4ZG-D0-Bax" secondAttribute="bottom" constant="2" id="7QN-de-2p9"/>
                             <constraint firstItem="dvl-JC-PXW" firstAttribute="top" secondItem="5qJ-B1-iIs" secondAttribute="bottom" constant="2" id="8g5-gk-8Yq"/>
                             <constraint firstItem="4qf-yE-K1C" firstAttribute="top" secondItem="9Tp-v4-5la" secondAttribute="bottom" constant="2" id="8gM-Af-t6M"/>
-                            <constraint firstItem="7Fk-Eb-CA1" firstAttribute="top" secondItem="0Ym-Yu-goG" secondAttribute="bottom" constant="2" id="8kX-Lh-7SR"/>
+                            <constraint firstItem="2fG-ek-ued" firstAttribute="top" secondItem="0Ym-Yu-goG" secondAttribute="bottom" constant="2" id="8hX-50-OZV"/>
                             <constraint firstItem="wbf-3c-29H" firstAttribute="top" secondItem="DbI-hU-liq" secondAttribute="bottom" constant="2" id="Ak3-Gc-EfG"/>
                             <constraint firstItem="DbI-hU-liq" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="AtG-bv-bxF"/>
                             <constraint firstItem="wCG-y8-WiW" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="BKl-Ci-osT"/>
@@ -242,26 +268,26 @@
                             <constraint firstItem="11g-us-fVK" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="HUY-Wl-ydq"/>
                             <constraint firstItem="0Ym-Yu-goG" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="Hef-bi-m5v"/>
                             <constraint firstItem="HUE-1P-qPm" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="IDO-w7-bl5"/>
-                            <constraint firstItem="7Fk-Eb-CA1" firstAttribute="top" secondItem="ffe-uy-CxA" secondAttribute="bottom" constant="2" id="It2-Ea-zq5"/>
+                            <constraint firstItem="QDN-ri-0To" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IiJ-O1-YIc"/>
                             <constraint firstItem="4ZG-D0-Bax" firstAttribute="leading" secondItem="gEe-wB-Jxq" secondAttribute="trailing" constant="2" id="J8L-WE-yNx"/>
                             <constraint firstItem="DbI-hU-liq" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="K7p-jr-GUI"/>
                             <constraint firstItem="DbI-hU-liq" firstAttribute="top" secondItem="9Tp-v4-5la" secondAttribute="bottom" constant="2" id="LEB-6N-BXQ"/>
                             <constraint firstItem="HUE-1P-qPm" firstAttribute="top" secondItem="dvl-JC-PXW" secondAttribute="bottom" constant="2" id="Lbv-M3-aSw"/>
                             <constraint firstItem="0jh-e3-40w" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="Ln0-xe-PNQ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7Fk-Eb-CA1" secondAttribute="bottom" constant="8" id="NvP-Iz-w1I"/>
-                            <constraint firstItem="7Fk-Eb-CA1" firstAttribute="top" secondItem="gEe-wB-Jxq" secondAttribute="bottom" constant="2" id="OQG-61-834"/>
                             <constraint firstItem="dvl-JC-PXW" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="PdU-UW-DMe"/>
-                            <constraint firstItem="2fG-ek-ued" firstAttribute="top" secondItem="7Fk-Eb-CA1" secondAttribute="bottom" constant="2" id="QUr-aO-nfY"/>
+                            <constraint firstItem="SEV-OV-GbB" firstAttribute="top" secondItem="gEe-wB-Jxq" secondAttribute="bottom" constant="2" id="QXR-cp-B9F"/>
                             <constraint firstItem="dvl-JC-PXW" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="Rn0-i5-Lkw"/>
                             <constraint firstItem="DbI-hU-liq" firstAttribute="leading" secondItem="4qf-yE-K1C" secondAttribute="trailing" constant="2" id="SA1-7o-jvv"/>
                             <constraint firstItem="4qf-yE-K1C" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="U0c-1i-bLA"/>
                             <constraint firstItem="8qz-Hk-tco" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="U8E-nJ-iw9"/>
                             <constraint firstItem="4ZG-D0-Bax" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="UEi-eF-O8N"/>
+                            <constraint firstItem="SEV-OV-GbB" firstAttribute="top" secondItem="sPh-gA-8GU" secondAttribute="bottom" constant="2" id="V1G-pu-C5j"/>
                             <constraint firstItem="acU-UZ-rPq" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="VXJ-Tn-s7V"/>
                             <constraint firstItem="0Ym-Yu-goG" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="Wcc-aM-EC9"/>
                             <constraint firstItem="ffe-uy-CxA" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="Xkp-Mt-ZDW"/>
                             <constraint firstItem="rib-I9-YPv" firstAttribute="top" secondItem="iZb-0X-oln" secondAttribute="bottom" constant="2" id="Xo3-Hr-If0"/>
                             <constraint firstItem="2fG-ek-ued" firstAttribute="width" secondItem="SEV-OV-GbB" secondAttribute="width" id="XyS-bj-45X"/>
+                            <constraint firstItem="QDN-ri-0To" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="YBA-kp-JT5"/>
                             <constraint firstItem="wCG-y8-WiW" firstAttribute="top" secondItem="wbf-3c-29H" secondAttribute="bottom" constant="2" id="YEm-lL-z2B"/>
                             <constraint firstItem="iZb-0X-oln" firstAttribute="top" secondItem="4qf-yE-K1C" secondAttribute="bottom" constant="2" id="YKz-No-73F"/>
                             <constraint firstItem="ffe-uy-CxA" firstAttribute="leading" secondItem="0Ym-Yu-goG" secondAttribute="trailing" constant="2" id="ZuR-iz-JX0"/>
@@ -275,11 +301,11 @@
                             <constraint firstItem="8qz-Hk-tco" firstAttribute="leading" secondItem="lU3-zG-34t" secondAttribute="trailing" constant="2" id="diC-tz-hm8"/>
                             <constraint firstItem="gEe-wB-Jxq" firstAttribute="top" secondItem="acU-UZ-rPq" secondAttribute="bottom" constant="2" id="e4J-69-TYG"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SEV-OV-GbB" secondAttribute="bottom" id="eIB-KG-43h"/>
-                            <constraint firstItem="9Tp-v4-5la" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="eIM-zD-kSN"/>
-                            <constraint firstAttribute="trailing" secondItem="7Fk-Eb-CA1" secondAttribute="trailing" id="ecq-bs-DsS"/>
+                            <constraint firstItem="2fG-ek-ued" firstAttribute="top" secondItem="ffe-uy-CxA" secondAttribute="bottom" constant="2" id="ejs-7L-DNZ"/>
                             <constraint firstItem="ffe-uy-CxA" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="eoK-ek-Gjf"/>
                             <constraint firstItem="g3L-8v-VcL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="f8g-ws-MsQ"/>
                             <constraint firstItem="8qz-Hk-tco" firstAttribute="top" secondItem="11g-us-fVK" secondAttribute="bottom" constant="2" id="fLy-f2-Qr3"/>
+                            <constraint firstAttribute="trailing" secondItem="QDN-ri-0To" secondAttribute="trailing" constant="8" id="fhe-kf-4gO"/>
                             <constraint firstItem="rib-I9-YPv" firstAttribute="leading" secondItem="acU-UZ-rPq" secondAttribute="trailing" constant="2" id="gQh-ZH-zoU"/>
                             <constraint firstItem="wCG-y8-WiW" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="gpa-P5-2Xw"/>
                             <constraint firstAttribute="trailing" secondItem="ffe-uy-CxA" secondAttribute="trailing" id="hNi-DT-4MR"/>
@@ -291,8 +317,6 @@
                             <constraint firstItem="0Ym-Yu-goG" firstAttribute="leading" secondItem="4ZG-D0-Bax" secondAttribute="trailing" constant="2" id="jlS-Jq-X99"/>
                             <constraint firstItem="5qJ-B1-iIs" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="lbV-IK-fAq"/>
                             <constraint firstItem="5qJ-B1-iIs" firstAttribute="leading" secondItem="DbI-hU-liq" secondAttribute="trailing" constant="2" id="ltD-pw-r0M"/>
-                            <constraint firstItem="7Fk-Eb-CA1" firstAttribute="top" secondItem="4ZG-D0-Bax" secondAttribute="bottom" constant="2" id="mUr-zQ-1Vy"/>
-                            <constraint firstItem="7Fk-Eb-CA1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mYB-uP-aNB"/>
                             <constraint firstItem="SEV-OV-GbB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nbo-Jk-4fK"/>
                             <constraint firstItem="wbf-3c-29H" firstAttribute="width" secondItem="g3L-8v-VcL" secondAttribute="width" id="nlW-nJ-WdX"/>
                             <constraint firstItem="sPh-gA-8GU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="olD-aW-Gut"/>
@@ -300,6 +324,7 @@
                             <constraint firstItem="wCG-y8-WiW" firstAttribute="leading" secondItem="rib-I9-YPv" secondAttribute="trailing" constant="2" id="rQz-BF-G3S"/>
                             <constraint firstAttribute="trailing" secondItem="5qJ-B1-iIs" secondAttribute="trailing" id="rcC-8K-60B"/>
                             <constraint firstItem="dvl-JC-PXW" firstAttribute="leading" secondItem="wbf-3c-29H" secondAttribute="trailing" constant="2" id="sfB-KQ-0sa"/>
+                            <constraint firstItem="2fG-ek-ued" firstAttribute="height" secondItem="SEV-OV-GbB" secondAttribute="height" id="t19-Ie-rsA"/>
                             <constraint firstItem="0jh-e3-40w" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tHL-2n-kKa"/>
                             <constraint firstItem="wbf-3c-29H" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="tYk-Y1-Ztf"/>
                             <constraint firstItem="g3L-8v-VcL" firstAttribute="top" secondItem="9Tp-v4-5la" secondAttribute="bottom" constant="2" id="uAV-KN-FLw"/>
@@ -315,11 +340,6 @@
                             <constraint firstItem="4qf-yE-K1C" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="zgx-M4-vlo"/>
                             <constraint firstItem="gEe-wB-Jxq" firstAttribute="height" secondItem="g3L-8v-VcL" secondAttribute="height" id="zvR-fV-Dvf"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="NvP-Iz-w1I"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="decimalPointButton" destination="sPh-gA-8GU" id="Jqw-pP-Jqd"/>
