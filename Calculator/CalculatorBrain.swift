@@ -36,16 +36,20 @@ class CalculatorBrain
     private var knownOps = [String:Op]()
     
     init(){
-        knownOps["×"] = Op.BinaryOperation("×", *)
-        knownOps["÷"] = Op.BinaryOperation("÷"){ $1 / $0 }
-        knownOps["+"] = Op.BinaryOperation("+", +)
-        knownOps["−"] = Op.BinaryOperation("−"){ $1 - $0 }
-        knownOps["√"] = Op.UnaryOperation("√", sqrt)
+        func learnOp(op:Op) {
+            knownOps[op.description] = op
+        }
+        
+        learnOp(Op.BinaryOperation("×", *))
+        learnOp(Op.BinaryOperation("÷"){ $1 / $0 })
+        learnOp(Op.BinaryOperation("+", +))
+        learnOp(Op.BinaryOperation("−"){ $1 - $0 })
+        learnOp(Op.UnaryOperation("√", sqrt))
+        
         //TODO - Add pi, cos and sin operations
-        //        case "π":
-        //        case "cos":
-        //        case "sin":
-
+        //"π"
+        //"cos"
+        //"sin"
     }
     
     private func evaluate(ops:[Op]) -> (result:Double?, remainingOps:[Op]) {
