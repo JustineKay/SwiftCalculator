@@ -29,6 +29,38 @@ class CalculatorBrain
         knownOps["√"] = Op.UnaryOperation("√", sqrt)
     }
     
+    private func evaluate(ops:[Op]) -> (result:Double?, remainingOps:[Op]) {
+        if !ops.isEmpty{
+            var allRemainingOps = ops
+            let op = allRemainingOps.removeLast()
+            switch op {
+            case .Operand(let operand):
+                return (operand, allRemainingOps)
+            case .UnaryOperation(_, let operation):
+                let operandEvaluation = evaluate(allRemainingOps)
+                if let operand = operandEvaluation.result {
+                    return (operation(operand), operandEvaluation.remainingOps)
+                }
+            case .BinaryOperation(_, let operation):
+                let op1Evaluation = evaluate(allRemainingOps)
+                if let operand1 = op1Evaluation.result {
+                    let op2Evaluation = evaluate(op1Evaluation.remainingOps)
+                    if let operand2 = op2Evaluation.result {
+                        return (operation(operand1, operand2), op2Evaluation.remainingOps)
+                    }
+                }
+                
+            }
+        }
+        
+        return (nil, ops)
+    }
+    
+    func evaluate() -> Double? {
+        let (result, _) = evaluate(opStack)
+        return result
+    }
+    
     func pushOperand(operand:Double) {
         opStack.append(Op.Operand(operand))
     }
