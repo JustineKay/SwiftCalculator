@@ -12,14 +12,16 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var displayLabel: UILabel!
     @IBOutlet weak var decimalPointButton: UIButton!
+    @IBOutlet weak var stackLabel: UILabel!
     
     var userIsInTheMiddleOfTypingANumber = false
     var brain = CalculatorBrain()
+    var opStack = [String]()
     
     @IBAction func appendDigit(sender: UIButton) {
         var digit = String()
         if sender.currentTitle! == "π" {
-            digit = "3.14"
+            digit = String(M_PI)
         } else {
             digit = sender.currentTitle!
         }
@@ -54,6 +56,8 @@ class ViewController: UIViewController {
         userIsInTheMiddleOfTypingANumber = false
         if let result = brain.pushOperand(displayValue) {
             displayValue = result
+            opStack.append(String(result))
+            stackLabel.text = "\(opStack)"
         } else {
             //TODO - make displayValue an optional to adjust the response if nil
             displayValue = 0
@@ -72,5 +76,18 @@ class ViewController: UIViewController {
             userIsInTheMiddleOfTypingANumber = false
         }
     }
+    
+    var stackValue: String {
+        
+        get {
+            return self.stackValue
+        }
+        set {
+            
+            
+        }
+        
+    }
+
 }
 

@@ -82,7 +82,7 @@ class CalculatorBrain
         return result
     }
     
-    func pushOperand(operand:Double) -> Double?{
+    func pushOperand(operand:Double) -> Double? {
         opStack.append(Op.Operand(operand))
         return evaluate()
     }
