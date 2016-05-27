@@ -45,11 +45,8 @@ class CalculatorBrain
         learnOp(Op.BinaryOperation("+", +))
         learnOp(Op.BinaryOperation("−"){ $1 - $0 })
         learnOp(Op.UnaryOperation("√", sqrt))
-        
-        //TODO - Add pi, cos and sin operations
-        //"π"
-        //"cos"
-        //"sin"
+        learnOp(Op.UnaryOperation("cos", cos))
+        learnOp(Op.UnaryOperation("sin", sin))
     }
     
     private func evaluate(ops:[Op]) -> (result:Double?, remainingOps:[Op]) {
