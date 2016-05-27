@@ -17,7 +17,12 @@ class ViewController: UIViewController {
     var brain = CalculatorBrain()
     
     @IBAction func appendDigit(sender: UIButton) {
-        let digit = sender.currentTitle!
+        var digit = String()
+        if sender.currentTitle! == "π" {
+            digit = "3.14"
+        } else {
+            digit = sender.currentTitle!
+        }
         if digit == "." {
             sender.enabled = false
         }
